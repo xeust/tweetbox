@@ -1,0 +1,45 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #16171a;
+    height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+    body {
+        margin: 0 22%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    body {
+        margin: 0 15%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin: 0 10%;
+    }
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    overflow: scroll;
+}
+
+.tweet-wrapper {
+    width: 400px;
+}
